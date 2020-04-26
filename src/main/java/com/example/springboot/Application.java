@@ -20,6 +20,7 @@ public class Application {
 		return args -> {
 
 			System.out.println("Let's inspect the beans provided by Spring Boot:");
+            System.out.println("Another line added and this is not the master branch");
 
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
